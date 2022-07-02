@@ -3,7 +3,7 @@ datasets==1.6.2
 deepspeed==0.5.0
 huggingface-hub==0.0.12
 multiprocess==0.70.12.2
-protobuf==3.13.0
+protobuf==3.15.0
 protobuf3-to-dict==0.1.5
 sagemaker==2.59.4
 scikit-learn==0.24.2
