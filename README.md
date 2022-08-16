@@ -68,20 +68,27 @@ This model retrieves a set of premises from the corpus. Training uses the Entail
 ## Citation
 
 ```
-@inproceedings{ribeiro-etal-2022-irgr,
+@inproceedings{neves-ribeiro-etal-2022-entailment,
     title = "Entailment Tree Explanations via Iterative Retrieval-Generation Reasoner",
-    author = "Ribeiro, Danilo N.  and
+    author = "Neves Ribeiro, Danilo  and
       Wang, Shen  and
       Ma, Xiaofei  and
       Dong, Rui  and
       Wei, Xiaokai  and
-      Zhu, Henry  and
+      Zhu, Henghui  and
       Chen, Xinchi  and
-      Huang, Zhiheng  and
       Xu, Peng  and
+      Huang, Zhiheng  and
       Arnold, Andrew  and
       Roth, Dan",
-      booktitle = "Findings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
-      year={2022}
+    booktitle = "Findings of the Association for Computational Linguistics: NAACL 2022",
+    month = jul,
+    year = "2022",
+    address = "Seattle, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.findings-naacl.35",
+    doi = "10.18653/v1/2022.findings-naacl.35",
+    pages = "465--475",
+    abstract = "Large language models have achieved high performance on various question answering (QA) benchmarks, but the explainability of their output remains elusive. Structured explanations, called entailment trees, were recently suggested as a way to explain the reasoning behind a QA system{'}s answer. In order to better generate such entailment trees, we propose an architecture called Iterative Retrieval-Generation Reasoner (IRGR). Our model is able to explain a given hypothesis by systematically generating a step-by-step explanation from textual premises. The IRGR model iteratively searches for suitable premises, constructing a single entailment step at a time. Contrary to previous approaches, our method combines generation steps and retrieval of premises, allowing the model to leverage intermediate conclusions, and mitigating the input size limit of baseline encoder-decoder models. We conduct experiments using the EntailmentBank dataset, where we outperform existing benchmarks on premise retrieval and entailment tree generation, with around 300{\%} gain in overall correctness.",
 }
 ```
